@@ -28,6 +28,6 @@ jobs:
         run: |
           echo "Running validation tests..."
           npm install --prefix app
-          npm run test 
+          npm test --prefix app
           echo "Validation complete - some tests failed because deployment config has errors"
           exit 0
