@@ -1,2 +1,2 @@
-rollback_strategy: 
-target_version: 
+rollback_strategy: rollback.sh
+target_version: latest_tagged
